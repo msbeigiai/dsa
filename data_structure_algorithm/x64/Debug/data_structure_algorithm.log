@@ -1,0 +1,8 @@
+﻿  main.cpp
+D:\dev\c++_projects\DataStructuresAlgorithm\data_structure_algorithm\main.cpp(20,8): error C2131: expression did not evaluate to a constant
+  D:\dev\c++_projects\DataStructuresAlgorithm\data_structure_algorithm\main.cpp(20,8):
+  failure was caused by a read of a variable outside its lifetime
+  D:\dev\c++_projects\DataStructuresAlgorithm\data_structure_algorithm\main.cpp(20,8):
+  see usage of 'n'
+  
+D:\dev\c++_projects\DataStructuresAlgorithm\data_structure_algorithm\main.cpp(21,7): error C3863: array type 'int [n]' is not assignable
