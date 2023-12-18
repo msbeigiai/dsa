@@ -1,24 +1,18 @@
 #include <iostream>
+#include "LinearSearch.h"
 
 using namespace std;
 
 int main() {
-	/*int A[] = { 2, 4, 1, 3, 5, 11 };
-	
-	cout << sizeof(A) << endl;
-	cout << A[1] << endl;
 
-	printf("%d\n", A[2]);
+    LinearSearch ls;
 
-	for (int x : A) {
-		cout << x << endl;
-	}*/
+    std::vector<int> A = { 3, 17, 75, 80, 202 };
+    int searchValue = 75;
 
-	int n;
-	cout << "Enter size: ";
-	cin >> n;
-	int A[n];
-	A[0] = 1;
+    int index = ls.linearSearch(A, searchValue);
 
-	return 0;
+    cout << index << endl;
+
+    return 0;
 }
