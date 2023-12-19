@@ -1,16 +1,17 @@
 #include <iostream>
-#include "LinearSearch.h"
+#include "BinarySearch.h"
+
 
 using namespace std;
 
 int main() {
 
-    LinearSearch ls;
+    BinarySearch bs;
 
     std::vector<int> A = { 3, 17, 75, 80, 202 };
-    int searchValue = 75;
+    int searchValue = 80;
 
-    int index = ls.linearSearch(A, searchValue);
+    int index = bs.binarySearch(A, searchValue);
 
     cout << index << endl;
 
